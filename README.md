@@ -15,7 +15,9 @@ ros_numpy
 sudo apt-get install ros-noetic-ros-numpy
 ```
 cuda(optional but recommended)
+
 [darknet_ros](https://github.com/0nhc/darknet_ros.git)
+
 [iai_kinect2](https://github.com/0nhc/iai_kinect2.git)
 
 # how to use
