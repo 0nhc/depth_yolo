@@ -1,3 +1,8 @@
+# system requirement
+only tested on
+* Ubuntu 20.04 (ROS Noetic)
+* remember to downgrade your gcc and g++ version of your system to 7(my Ubuntu 20.04 default 8)
+
 # dependencies
 [libfreenect2](https://github.com/OpenKinect/libfreenect2)
 
@@ -13,7 +18,7 @@ sudo apt-get install ros-noetic-ros-numpy
 cuda(optional but recommended)
 
 # how to use
-remember to downgrade your gcc and g++ version of your system to 7(Ubuntu 20.04 default 8)
+
 ```sh
 cd <your_ws>/src
 git clone --recursive https://github.com/0nhc/depth_yolo.git
