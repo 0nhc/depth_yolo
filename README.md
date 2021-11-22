@@ -14,14 +14,17 @@ ros_numpy
 ```sh
 sudo apt-get install ros-noetic-ros-numpy
 ```
-
 cuda(optional but recommended)
+[darknet_ros](https://github.com/0nhc/darknet_ros.git)
+[iai_kinect2](https://github.com/0nhc/iai_kinect2.git)
 
 # how to use
 
 ```sh
 cd <your_ws>/src
-git clone --recursive https://github.com/0nhc/depth_yolo.git
+git clone --recursive https://github.com/0nhc/darknet_ros.git
+git clone https://github.com/0nhc/iai_kinect2.git
+git clone https://github.com/0nhc/depth_yolo.git
 cd ..
 catkin_make -DCMAKE_BUILD_TYPE="Release"
 source devel/setup.bash
