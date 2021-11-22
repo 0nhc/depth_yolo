@@ -1,16 +1,15 @@
-# description
+# Description
 This is a package that combines darknet_ros and iai_kinect2 in order to get the 3D location of the objects detected.
 
 It will automatically send tf transforms between the objects detected and kinect2_link.
 
-![a](imgs/a.jpeg)
 ![b](imgs/b.jpeg)
 
-# system requirements
+# System Requirements
 * I only tested it on Ubuntu 20.04
 * Remember to downgrade the gcc and g++ version of your system to 7 (my Ubuntu 20.04 is default 8)
 
-# dependencies
+# Dependencies
 * [libfreenect2](https://github.com/OpenKinect/libfreenect2.git) (follow the official steps to install libfreenect2)
 * python3-pcl
 ```sh
