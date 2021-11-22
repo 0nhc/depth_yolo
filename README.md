@@ -1,8 +1,9 @@
 # description
 This is a package that combines darknet_ros and iai_kinect2 in order to get the 3D location of the object.
 It will automatically send the tf transform between the kinect2_link and the objects detected.
-[a](imgs/a.jpeg)
-[b](imgs/b.jpeg)
+
+![a](imgs/a.jpeg)
+![b](imgs/b.jpeg)
 
 # system requirements
 only tested on
