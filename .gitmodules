@@ -1,0 +1,6 @@
+[submodule "iai_kinect2"]
+	path = iai_kinect2
+	url = https://github.com/0nhc/iai_kinect2.git
+[submodule "darknet_ros"]
+	path = darknet_ros
+	url = https://github.com/0nhc/darknet_ros.git
