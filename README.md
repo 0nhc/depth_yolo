@@ -45,6 +45,7 @@ source devel/setup.bash
 
 # Launch it
 It will automatically launch darknet_ros node(yolo v3) and kinect2_bridge.
+
 You can manually launch rviz to see the pointclouds and tf transforms.
 ```sh
 roslaunch depth_yolo depth_yolo.launch
