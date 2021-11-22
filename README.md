@@ -11,12 +11,12 @@ It will automatically send tf transforms between the objects detected and kinect
 
 # Dependencies
 * [libfreenect2](https://github.com/OpenKinect/libfreenect2.git) (follow the official steps to install libfreenect2)
-* python3-pcl
+* python3-pcl (if you are using Ubuntu 18.04 with ROS Melodic, pip install python-pcl)
 ```sh
 pip install python3-pcl
 ```
 
-* ros_numpy
+* ros_numpy (if you are using Ubuntu 18.04 with ROS Melodic, sudo apt-get install ros-melodic-ros-numpy)
 ```sh
 sudo apt-get install ros-noetic-ros-numpy
 ```
