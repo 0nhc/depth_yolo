@@ -24,8 +24,17 @@ cuda(optional but recommended)
 
 ```sh
 cd <your_ws>/src
+```
+
+if you haven't installed darknet_ros and iai_kinect2 yet, just clone the two packages modified by me
+```sh
 git clone --recursive https://github.com/0nhc/darknet_ros.git
 git clone https://github.com/0nhc/iai_kinect2.git
+```
+
+the you can continue
+
+```sh
 git clone https://github.com/0nhc/depth_yolo.git
 cd ..
 catkin_make -DCMAKE_BUILD_TYPE="Release"
