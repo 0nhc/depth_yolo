@@ -16,9 +16,9 @@ sudo apt-get install ros-noetic-ros-numpy
 ```
 cuda(optional but recommended)
 
-[darknet_ros](https://github.com/0nhc/darknet_ros.git)
+[darknet_ros](https://github.com/0nhc/darknet_ros.git) (I modified it for my RTX 3060 laptop)
 
-[iai_kinect2](https://github.com/0nhc/iai_kinect2.git)
+[iai_kinect2](https://github.com/0nhc/iai_kinect2.git) (I modified it for Ubuntu 20.04)
 
 # how to use
 
