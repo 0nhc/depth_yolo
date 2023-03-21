@@ -14,7 +14,7 @@
 
   <!-- ROS and network parameter files -->
   <arg name="ros_param_file"             default="$(find darknet_ros)/config/ros.yaml"/>
-  <arg name="network_param_file"         default="$(find darknet_ros)/config/yolov3.yaml"/>
+  <arg name="network_param_file"         default="$(find darknet_ros)/config/yolov2-tiny.yaml"/>
 
   <!-- Load parameters -->
   <rosparam command="load" ns="darknet_ros" file="$(arg ros_param_file)"/>
@@ -27,8 +27,14 @@
     <remap from="camera/rgb/image_raw"  to="$(arg image)" />
   </node>
 
-  <!-- depth_combination -->
-  <node pkg="deoth_yolo" type="depth_combination.py" name="depth_combination" output="screen" />
-  
- <!--<node name="republish" type="republish" pkg="image_transport" output="screen" 	args="compressed in:=/front_camera/image_raw raw out:=/camera/image_raw" /> -->
+  <!-- Depth Combination -->
+  <node pkg="depth_yolo" type="depth_combination.py" name="depth_combination" />
+
+  <!-- Static TF -->
+  <node pkg="tf" type="static_transform_publisher" name="camera_link_to_kinect2_optical_frame"
+    args="0 0 0 -1.57 0 -1.57 /camera_link /kinect2_ir_optical_frame 100" />
+
+   <!-- Rviz -->
+  <node pkg="rviz" type="rviz" name="rviz"
+    args="-d $(find depth_yolo)/rviz/depth_yolo.rviz" />
 </launch>
