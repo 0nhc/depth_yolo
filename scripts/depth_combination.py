@@ -14,7 +14,6 @@
 # along with this program.If not, see <https://www.gnu.org/licenses/>.       
 
 #!/usr/bin/env python3
-
 import rospy
 import pcl
 from darknet_ros_msgs.msg import BoundingBoxes
