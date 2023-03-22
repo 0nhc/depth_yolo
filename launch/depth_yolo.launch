@@ -34,7 +34,7 @@
   <node pkg="tf" type="static_transform_publisher" name="camera_link_to_kinect2_optical_frame"
     args="0 0 0 -1.57 0 -1.57 /camera_link /kinect2_ir_optical_frame 100" />
 
-   <!-- Rviz -->
+   <!-- RVIZ -->
   <node pkg="rviz" type="rviz" name="rviz"
     args="-d $(find depth_yolo)/rviz/depth_yolo.rviz" />
 </launch>
