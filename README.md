@@ -1,8 +1,9 @@
-![ROS1 VERSION](https://img.shields.io/badge/ROS-ROS%201%20Noetic-brightgreen)
+
+[![ROS1 VERSION](https://img.shields.io/badge/ROS-ROS%201%20Noetic-brightgreen)](http://wiki.ros.org/noetic)
 &nbsp;
 [![Ubuntu VERSION](https://img.shields.io/badge/Tested-Ubuntu%2020.04-green)](https://ubuntu.com/)
 &nbsp;
-![LICENSE](https://img.shields.io/badge/license-GPL%203-informational)
+[![LICENSE](https://img.shields.io/badge/license-GPL%203-informational)](https://github.com/0nhc/depth_yolo/blob/master/LICENSE)
 &nbsp;
 
 # Description
